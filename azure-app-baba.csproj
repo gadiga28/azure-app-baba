@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_baba</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/a9331ea7-041f-49da-84bd-b2d46c29106b/resourceGroups/app-axure-baba-rg/providers/microsoft.insights/components/app-azure-baba</ApplicationInsightsResourceId>
+    <UserSecretsId>b94ca003-42c6-486b-83c3-26fd34b1ca29</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
